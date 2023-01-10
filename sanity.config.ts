@@ -5,6 +5,7 @@ import { markdownSchema } from 'sanity-plugin-markdown'
 export default defineConfig({
   name: 'danydodson',
   title: 'danydodson.dev',
+  basePath: '/studio',
   projectId: 'jnxnsyix',
   dataset: 'production',
   plugins: [deskTool(), markdownSchema()],
