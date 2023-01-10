@@ -10,8 +10,8 @@
     "typecheck": "tsc --noEmit --incremental false",
     "prisma-generate": "npx prisma generate",
     "prisma-db-push": "npx prisma db push",
-    "sanity-build": "sanity build",
-    "sanity-start": "sanity start"
+    "sanity-dev": "sanity dev",
+    "sanity-build": "sanity build"
   },
   "dependencies": {
     "@next/font": "13.1.1",
@@ -31,7 +31,7 @@
     "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sanity": "dev-preview",
+    "sanity": "3.1.4",
     "sanity-plugin-markdown": "^3.0.1",
     "styled-components": "^5.3.6",
     "swr": "2.0.0",
