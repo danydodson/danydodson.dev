@@ -25,10 +25,7 @@ export default function About() {
               Website: <Link href="https://danydodson.dev">https://danydodson.dev</Link>
             </li>
             <li>
-              LinkedIn:{' '}
-              <a href="https://www.linkedin.com/in/danydodson/">
-                https://www.linkedin.com/in/danydodson
-              </a>
+              LinkedIn:{' '}<a href="https://www.linkedin.com/in/danydodson/">https://www.linkedin.com/in/danydodson</a>
             </li>
           </ul>
           <h2>Bio</h2>
