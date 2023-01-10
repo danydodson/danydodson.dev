@@ -60,11 +60,6 @@ export type TopTracks = {
   tracks: Song[]
 }
 
-export type YouTube = {
-  subscriberCount: number
-  viewCount: number
-}
-
 export type GitHub = {
   stars: number
 }

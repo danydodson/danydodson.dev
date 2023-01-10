@@ -4,7 +4,6 @@ import Analytics from 'components/metrics/Analytics'
 import Container from 'components/Container'
 import GitHub from 'components/metrics/Github'
 import Unsplash from 'components/metrics/Unsplash'
-import YouTube from 'components/metrics/Youtube'
 import TopTracks from 'components/TopTracks'
 
 export default function Dashboard() {
@@ -21,7 +20,7 @@ export default function Dashboard() {
           <p className="text-gray-600 dark:text-gray-400 mb-4">
             This is my personal dashboard, built with Next.js API routes
             deployed as serverless functions. I use this dashboard to track
-            various metrics across platforms like Unsplash, YouTube, GitHub, and
+            various metrics across platforms like Unsplash, GitHub, and
             more. Want to build your own? Check out my&nbsp;
             <Link
               href="/blog/fetching-data-with-swr"
@@ -33,7 +32,6 @@ export default function Dashboard() {
         </div>
         <div className="flex flex-col w-full">
           <Unsplash />
-          <YouTube />
         </div>
         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 my-2 w-full">
           <Analytics />

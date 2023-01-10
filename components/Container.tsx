@@ -39,7 +39,7 @@ export default function Container(props) {
   const meta = {
     title: 'Dany Dodson - Developer, writer, creator.',
     description: `Front-end developer, JavaScript enthusiast, and course creator.`,
-    image: 'https://leerob.io/static/images/lee-banner.png',
+    image: 'https://leerob.io/static/images/dany-banner.png',
     type: 'website',
     ...customMeta
   }
