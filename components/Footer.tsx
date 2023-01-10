@@ -43,7 +43,7 @@ export default function Footer() {
           <ExternalLink href="https://twitter.com/danydodson">
             Twitter
           </ExternalLink>
-          <ExternalLink href="https://github.com/leerob">GitHub</ExternalLink>
+          <ExternalLink href="https://github.com/danydodson">GitHub</ExternalLink>
           <ExternalLink href="https://www.youtube.com/channel/UC4PZHc0DT_1AabCiso20NXg">
             YouTube
           </ExternalLink>
