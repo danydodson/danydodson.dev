@@ -10,13 +10,17 @@
     "typecheck": "tsc --noEmit --incremental false",
     "prisma-generate": "npx prisma generate",
     "prisma-db-push": "npx prisma db push",
-    "sanity-dev": "sanity dev",
-    "sanity-build": "sanity build"
+    "sanity:dev": "sanity dev",
+    "sanity:start": "sanity start",
+    "sanity:build": "sanity build",
+    "sanity:deploy": "sanity deploy",
+    "sanity:graphql": "sanity graphql deploy"
   },
   "dependencies": {
     "@next/font": "13.1.1",
     "@prisma/client": "^4.8.1",
     "@sanity/image-url": "^1.0.1",
+    "@sanity/vision": "^3.0.0",
     "@sanity/webhook": "^2.0.0",
     "@tailwindcss/typography": "0.5.8",
     "@vercel/analytics": "^0.1.6",
@@ -31,7 +35,7 @@
     "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sanity": "3.1.4",
+    "sanity": "^3.2.3",
     "sanity-plugin-markdown": "^3.0.1",
     "styled-components": "^5.3.6",
     "swr": "2.0.0",

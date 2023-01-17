@@ -6,7 +6,9 @@ import { format } from 'date-fns'
  *
  * Needs support for images, GIFs, and replies maybe?
  * Styles use !important to override Tailwind .prose inside MDX.
- */
+ * 
+*/
+
 export default function Tweet({
   text,
   id,
@@ -16,6 +18,7 @@ export default function Tweet({
   public_metrics,
   referenced_tweets
 }) {
+
   const authorUrl = `https://twitter.com/${author.username}`
   const likeUrl = `https://twitter.com/intent/like?tweet_id=${id}`
   const retweetUrl = `https://twitter.com/intent/retweet?tweet_id=${id}`
@@ -26,8 +29,8 @@ export default function Tweet({
   const formattedText = text
     .replace(/https:\/\/[\n\S]+/g, '')
     .replace('&amp;', '&')
-  const quoteTweet =
-    referenced_tweets && referenced_tweets.find((t) => t.type === 'quoted')
+
+  const quoteTweet = referenced_tweets && referenced_tweets.find((t) => t.type === 'quoted')
 
   return (
     <div className="tweet rounded-lg border border-gray-200 dark:border-gray-800 px-6 py-4 my-4 w-full bg-white dark:bg-gray-900">

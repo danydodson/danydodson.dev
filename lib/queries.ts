@@ -1,4 +1,4 @@
-const postFields = `
+const postFields = /*css*/`
   _id,
   title,
   date,
@@ -7,13 +7,13 @@ const postFields = `
   "slug": slug.current,
 `
 
-export const indexQuery = `
+export const indexQuery = /*css*/`
   *[_type == "post"] | order(date desc, _updatedAt desc) {
     ${postFields}
   }
 `
 
-export const postQuery = `
+export const postQuery = /*css*/`
   {
     "post": *[_type == "post" && slug.current == $slug] | order(_updatedAt desc) [0] {
       content,
@@ -22,21 +22,21 @@ export const postQuery = `
   }
 `
 
-export const postSlugsQuery = `
+export const postSlugsQuery = /*css*/`
   *[_type == "post" && defined(slug.current)][].slug.current
 `
 
-export const postBySlugQuery = `
+export const postBySlugQuery = /*css*/`
   *[_type == "post" && slug.current == $slug][0] {
     ${postFields}
   }
 `
 
-export const postUpdatedQuery = `
+export const postUpdatedQuery = /*css*/`
   *[_type == "post" && _id == $id].slug.current
 `
 
-const snippetFields = `
+const snippetFields = /*css*/`
   _id,
   title,
   description,
@@ -44,13 +44,13 @@ const snippetFields = `
   "slug": slug.current,
 `
 
-export const allSnippetsQuery = `
+export const allSnippetsQuery = /*css*/`
   *[_type == "snippet"] | order(date desc, _updatedAt desc) {
     ${snippetFields}
   }
 `
 
-export const snippetsQuery = `
+export const snippetsQuery = /*css*/`
   {
     "snippet": *[_type == "snippet" && slug.current == $slug] | order(_updatedAt desc) [0] {
       content,
@@ -59,11 +59,11 @@ export const snippetsQuery = `
   }
 `
 
-export const snippetSlugsQuery = `
+export const snippetSlugsQuery = /*css*/`
   *[_type == "snippet" && defined(slug.current)][].slug.current
 `
 
-export const snippetBySlugQuery = `
+export const snippetBySlugQuery = /*css*/`
   *[_type == "snippet" && slug.current == $slug][0] {
     ${snippetFields}
   }

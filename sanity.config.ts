@@ -1,13 +1,19 @@
 import { defineConfig } from 'sanity'
 import { deskTool } from 'sanity/desk'
+import { visionTool } from '@sanity/vision'
 import { markdownSchema } from 'sanity-plugin-markdown'
 
 export default defineConfig({
   name: 'danydodson',
   title: 'danydodson.dev',
+  
   projectId: 'jnxnsyix',
   dataset: 'production',
-  plugins: [deskTool(), markdownSchema()],
+
+  basePath: '/studio',
+
+  plugins: [deskTool(), , visionTool(), markdownSchema()],
+
   schema: {
     types: [
       {
