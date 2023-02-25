@@ -19,7 +19,10 @@ export async function getServerSideProps({ res }) {
     })
   })
 
-  res.setHeader('Content-Type', 'text/xml')
+  res.setHeader(
+    'Content-Type',
+    'text/xml'
+  )
   res.setHeader(
     'Cache-Control',
     'public, s-maxage=1200, stale-while-revalidate=600'

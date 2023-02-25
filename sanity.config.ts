@@ -6,14 +6,10 @@ import { markdownSchema } from 'sanity-plugin-markdown'
 export default defineConfig({
   name: 'danydodson',
   title: 'danydodson.dev',
-  
   projectId: 'jnxnsyix',
   dataset: 'production',
-
   basePath: '/studio',
-
   plugins: [deskTool(), , visionTool(), markdownSchema()],
-
   schema: {
     types: [
       {

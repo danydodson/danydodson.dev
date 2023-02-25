@@ -1,7 +1,14 @@
 {
   "name": "Dany Dodson",
+  "start_url": "../../index.html",
   "short_name": "danydodson.dev",
   "description": "Curious mind, developer, and writer.",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "dir": "ltr",
+  "lang": "en-US",
   "icons": [
     {
       "src": "/static/favicons/android-chrome-192x192.png",
@@ -13,12 +20,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
-  "display": "standalone",
-  "dir": "ltr",
-  "lang": "en-US",
-  "orientation": "portrait-primary",
-  "start_url": "../../index.html"
+  ]
 }
