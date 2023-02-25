@@ -1,7 +1,7 @@
 import Container from 'components/Container'
 import Tweet from 'components/Tweet'
 import { getTweets } from 'lib/twitter'
-import { InferGetStaticPropsType } from "next";
+import { InferGetStaticPropsType } from "next"
 
 export default function Tweets({ tweets }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -28,6 +28,9 @@ export default function Tweets({ tweets }: InferGetStaticPropsType<typeof getSta
 
 export async function getStaticProps() {
   const tweets = await getTweets([
+    '1625639986111315969',
+    '1620121436949213184',
+    '1616775347680444418',
     '1610639746182836224',
     '1590787096863989760',
     '1498723275672752128',

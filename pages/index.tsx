@@ -4,7 +4,6 @@ import Link from 'next/link'
 
 import Container from '../components/Container'
 import BlogPostCard from '../components/BlogPostCard'
-import Subscribe from '../components/Subscribe'
 
 export default function Home() {
   return (
@@ -16,10 +15,10 @@ export default function Home() {
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
                 Dany Dodson
               </h1>
-              <h2 className="text-gray-700 dark:text-gray-200 mb-4">
+              {/* <h2 className="text-gray-700 dark:text-gray-200 mb-4">
                 VP of Developer Experience at{' '}
                 <span className="font-semibold">Vercel</span>
-              </h2>
+              </h2> */}
               <p className="text-gray-600 dark:text-gray-400 mb-16">
                 Helping developers build a faster web. Teaching about web
                 development, serverless, and React / Next.js.
@@ -81,7 +80,6 @@ export default function Home() {
             </>
           </Link>
           <span className="h-16" />
-          <Subscribe />
         </div>
       </Container>
     </Suspense>
