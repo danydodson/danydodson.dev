@@ -16,7 +16,7 @@ export default function About() {
           <h2>Links</h2>
           <ul>
             <li>
-              Twitter: <a href="https://twitter.com/danydodson">@danydodson</a>
+              Twitter: <a href="https://twitter.com/danydodson">@egore_eth</a>
             </li>
             <li>
               GitHub: <a href="https://github.com/danydodson">@danydodson</a>

@@ -1,8 +1,8 @@
-.vscode/settings.json
+.vscode
+node_modules
 *.log
 .DS_Store
 .next
-node_modules
 .vercel
 .env
 .sanity
