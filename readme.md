@@ -1,8 +1,10 @@
-[![wakatime](https://wakatime.com/badge/user/5f103765-30df-4813-b3e9-28120f0a5e6a.svg)](https://wakatime.com/@5f103765-30df-4813-b3e9-28120f0a5e6a)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdanydodson%2Fdanydodson.dev&env=NEXT_PUBLIC_SANITY_PROJECT_ID,NEXT_PUBLIC_SANITY_DATASET,SANITY_API_TOKEN,SANITY_PREVIEW_SECRET,SANITY_STUDIO_REVALIDATE_SECRET&envDescription=These%20values%20are%20needed%20to%20connect%20to%20Sanity%20and%20fetch%20content%20for%20blog%20posts.)
+
+<!-- [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdanydodson%2Fdanydodson.dev&env=NEXT_PUBLIC_SANITY_PROJECT_ID,NEXT_PUBLIC_SANITY_DATASET,SANITY_API_TOKEN,SANITY_PREVIEW_SECRET,SANITY_STUDIO_REVALIDATE_SECRET&envDescription=These%20values%20are%20needed%20to%20connect%20to%20Sanity%20and%20fetch%20content%20for%20blog%20posts.) -->
 
 # danydodson.dev
+
+[![wakatime](https://wakatime.com/badge/user/5f103765-30df-4813-b3e9-28120f0a5e6a.svg)](https://wakatime.com/@5f103765-30df-4813-b3e9-28120f0a5e6a)
  
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [PlanetScale](https://planetscale.com)
@@ -11,6 +13,7 @@
 - **Deployment**: [Vercel](https://vercel.com)
 - **CMS**: [Sanity](https://www.sanity.io/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+
 
 ## Learn More
 
